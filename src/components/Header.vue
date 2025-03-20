@@ -45,7 +45,7 @@
             </svg>
           </a>
 
-          <ul class="menu">
+          <ul class="menu main-menu">
             <li>
               <a href="#">Občan</a>
             </li>
@@ -56,34 +56,68 @@
        </div>
 
        <div class="right">
-        <ul class="menu">
-            <li> <a class="narrow"  href="#">
+        <ul class="menu bank-menu">
+
+            <li class="sm-hide"> 
+              <a class="narrow"  href="#">
                 <svg viewBox="0 0 24 24">
                   <path d="M11.5 2.75C9.15279 2.75 7.25 4.65279 7.25 7C7.25 9.34721 9.15279 11.25 11.5 11.25C13.8472 11.25 15.75 9.34721 15.75 7C15.75 4.65279 13.8472 2.75 11.5 2.75ZM5.75 7C5.75 3.82436 8.32436 1.25 11.5 1.25C14.6756 1.25 17.25 3.82436 17.25 7C17.25 10.1756 14.6756 12.75 11.5 12.75C8.32436 12.75 5.75 10.1756 5.75 7Z"></path>
                   <path d="M8.5 15.75C6.15279 15.75 4.25 17.6528 4.25 20V22H2.75V20C2.75 16.8244 5.32436 14.25 8.5 14.25H14.5V15.75H8.5Z"></path>
                   <path d="M18.25 15.25V22.75H16.75V15.25H18.25Z"></path>
                   <path d="M21.25 19.75H13.75V18.25H21.25V19.75Z"></path>
                 </svg>
-                <span>Stát se bohémem</span>
-              </a></li>
-            <li>
+                <span class="sm-hide">Stát se bohémem</span>
+              </a>
+            </li>
+
+            <li class="sm-hide">
               <a class="narrow" href="#">
                 <svg viewBox="0 0 24 24">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.25 12.5C2.25 10.9812 3.48122 9.75 5 9.75H19C20.5188 9.75 21.75 10.9812 21.75 12.5V19.5C21.75 21.0188 20.5188 22.25 19 22.25H5C3.48122 22.25 2.25 21.0188 2.25 19.5V12.5ZM5 11.25C4.30964 11.25 3.75 11.8096 3.75 12.5V19.5C3.75 20.1904 4.30964 20.75 5 20.75H19C19.6904 20.75 20.25 20.1904 20.25 19.5V12.5C20.25 11.8096 19.6904 11.25 19 11.25H5Z"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.25 7.5C6.25 4.32436 8.82436 1.75 12 1.75C15.1756 1.75 17.75 4.32436 17.75 7.5V11.25H6.25V7.5ZM12 3.25C9.65279 3.25 7.75 5.15279 7.75 7.5V9.75H16.25V7.5C16.25 5.15279 14.3472 3.25 12 3.25Z"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 13.75V18.75H11.25V13.75H12.75Z"></path>
+                  <path d="M2.25 12.5C2.25 10.9812 3.48122 9.75 5 9.75H19C20.5188 9.75 21.75 10.9812 21.75 12.5V19.5C21.75 21.0188 20.5188 22.25 19 22.25H5C3.48122 22.25 2.25 21.0188 2.25 19.5V12.5ZM5 11.25C4.30964 11.25 3.75 11.8096 3.75 12.5V19.5C3.75 20.1904 4.30964 20.75 5 20.75H19C19.6904 20.75 20.25 20.1904 20.25 19.5V12.5C20.25 11.8096 19.6904 11.25 19 11.25H5Z"></path>
+                  <path d="M6.25 7.5C6.25 4.32436 8.82436 1.75 12 1.75C15.1756 1.75 17.75 4.32436 17.75 7.5V11.25H6.25V7.5ZM12 3.25C9.65279 3.25 7.75 5.15279 7.75 7.5V9.75H16.25V7.5C16.25 5.15279 14.3472 3.25 12 3.25Z"></path>
+                  <path d="M12.75 13.75V18.75H11.25V13.75H12.75Z"></path>
                 </svg>
                 <span>Přihlásit</span>
               </a>
-             </li>
+            </li>
+
+            <li class="sm-show"> 
+              <a class="narrow" href="#">
+                <svg viewBox="0 0 24 24" style="width: 1.5rem; fill: black;"><path d="M11.5 2.75C9.15279 2.75 7.25 4.65279 7.25 7C7.25 9.34721 9.15279 11.25 11.5 11.25C13.8472 11.25 15.75 9.34721 15.75 7C15.75 4.65279 13.8472 2.75 11.5 2.75ZM5.75 7C5.75 3.82436 8.32436 1.25 11.5 1.25C14.6756 1.25 17.25 3.82436 17.25 7C17.25 10.1756 14.6756 12.75 11.5 12.75C8.32436 12.75 5.75 10.1756 5.75 7Z"></path>
+                  <path d="M8.5 15.75C6.15279 15.75 4.25 17.6528 4.25 20V22H2.75V20C2.75 16.8244 5.32436 14.25 8.5 14.25H14.5V15.75H8.5Z"></path>
+                  <path d="M18.25 15.25V22.75H16.75V15.25H18.25Z"></path>
+                  <path d="M21.25 19.75H13.75V18.25H21.25V19.75Z"></path>
+                </svg>
+              </a>
+            </li>
+
+            <li class="sm-show">
+              <a class="narrow" href="#">
+                <svg viewBox="0 0 24 24" style="width: 1.5rem;">
+                  <path d="M3 6H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
+                  <path d="M3 12H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
+                  <path d="M3 18H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
+                </svg>
+              </a>
+            </li>
+
           </ul>
-       </div>
-    </div>
+        </div>
+      </div>
 
   </header>
 </template>
 
 <style lang="scss" scoped>
+
+
+  .sm-hide {
+    display: inline-block;
+  }
+
+  .sm-show {
+    display: none !important;
+  }
 
 .portal-menu-wrap {
   height: 3rem;
@@ -91,6 +125,7 @@
   display: flex;
   justify-content: center;
   align-self: stretch;
+  padding: 0 1rem;
 
   .portal-menu {
     display: flex;
@@ -154,6 +189,7 @@
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
+  padding: 0 1rem;
 
   .left {
     display: flex;
@@ -210,6 +246,38 @@
         }
       }
 
+}
+
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 890px) {
+
+  .sm-hide {
+    display: none !important;
+  }
+
+  .sm-show {
+    display: inline-block !important;
+  }
+
+  .portal-menu-wrap {
+    display: none;
+  }
+
+  .web-menu  {
+    .left .logo svg {
+      width: 4.5rem;
+    }
+
+    .main-menu {
+      display: none;
+    }
+
+    .bank-menu {
+
+    }
+  }
 }
 
 </style>
