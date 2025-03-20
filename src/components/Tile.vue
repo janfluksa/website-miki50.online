@@ -39,6 +39,7 @@ defineProps({
   top: 3rem;
   left: 3rem;
   z-index: 999;
+  width: 25rem;
 
   &.dark * {
     color: white;

@@ -6,7 +6,6 @@
 
 <style scoped>
 .col {
-  background-color: green;
   display: flex;
   flex: 1;
   gap: 1rem;
