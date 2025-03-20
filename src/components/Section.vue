@@ -7,7 +7,6 @@
 <style scoped>
 section {
   max-width: 1440px;
-  background-color: silver;
   margin: 0 auto 1rem auto;
   display: flex;
   justify-content: space-between;

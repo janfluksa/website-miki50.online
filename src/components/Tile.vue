@@ -3,6 +3,7 @@ defineProps({
   image: String,
   video: String,
   height: Number,
+  dark: Boolean
 })
 </script>
 
@@ -10,9 +11,13 @@ defineProps({
 
   <div class="tile">
 
-    <img :src="`/${image}`" alt="">    
+    <img v-if="image && !video" :src="`/${image}`" alt="" />   
+    
+    <video v-if="video && !image" autoplay loop muted>
+      <source :src="`/${video}`" type="video/mp4"> 
+    </video>
 
-    <div class="content">
+    <div class="content" :class="dark ? 'dark' : 'light'">
       <slot></slot>
     </div>
 
@@ -20,12 +25,13 @@ defineProps({
 
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .tile {
   position: relative;
   display: flex;
   flex-grow: 1;
+  border-radius: 1rem;
 }
 
 .content {
@@ -33,9 +39,13 @@ defineProps({
   top: 3rem;
   left: 3rem;
   z-index: 999;
+
+  &.dark * {
+    color: white;
+  }
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 890px) {
