@@ -51,6 +51,5 @@ img, video {
 }
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 890px) {
-  
 }
 </style>
