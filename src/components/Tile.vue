@@ -40,12 +40,13 @@ defineProps({
   left: 3rem;
   z-index: 999;
   width: 25rem;
+  max-width: 75%;
 
   &.dark * {
     color: white;
   }
 }
-img {
+img, video {
   width: 100%;
 }
 /* Use a media query to add a breakpoint at 800px: */

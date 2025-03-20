@@ -9,7 +9,6 @@
   display: flex;
   flex: 1;
   gap: 1rem;
-  flex-grow: 1;
   flex-direction: column;
 }
 </style>

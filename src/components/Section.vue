@@ -14,7 +14,7 @@ section {
   flex-grow: 1;
   gap: 1rem;
   flex-direction: row;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 /* Use a media query to add a breakpoint at 800px: */

@@ -92,8 +92,8 @@
             </li>
 
             <li class="sm-show">
-              <a class="narrow" href="#">
-                <svg viewBox="0 0 24 24" style="width: 1.5rem;">
+              <a class="narrow" href="#" style="padding: 0;">
+                <svg viewBox="0 0 24 24" style="width: 1.5rem; margin: 0">
                   <path d="M3 6H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
                   <path d="M3 12H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
                   <path d="M3 18H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="square"></path>
@@ -125,7 +125,7 @@
   display: flex;
   justify-content: center;
   align-self: stretch;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 
   .portal-menu {
     display: flex;
@@ -189,7 +189,7 @@
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 
   .left {
     display: flex;
