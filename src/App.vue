@@ -2,7 +2,7 @@
 import Header from './components/Header.vue';
 import Section from './components/Section.vue';
 import Col from './components/Col.vue';
-import Tile from './components/Tile.vue';
+import Tile from './components/Tile2.vue';
 </script>
 
 <template>
@@ -11,29 +11,28 @@ import Tile from './components/Tile.vue';
   <Section>
     <Col>
 
-      <Tile image="ondra.jpg">
-        <h2>Všechno nejlepší k narozeninám! </h2>
-        <p>Ať jsi vždy minimálně tak šťastný jako já se 4 párky v rohlíku.</p>
+      <Tile image="ondra.jpg" pb=2>
+        <h2>Všechno nejlepší k narozeninám! </h2>
+        <p>Ať jsi vždy minimálně tak šťastný jako já se 4 párky v rohlíku.</p>
       </Tile>
 
-
-      <Tile image="lucka.jpeg" dark>
-        <h2>Nazdravi 🥂 </h2>
-        <p>...k tem 30. a 20. narozeninam.</p>
+      <Tile image="lucka.jpeg">
+        <h2>Nazdravi 🥂</h2>
+        <p>...k tem 30. a 20. narozeninam.</p>
       </Tile>
 
       <Tile image="renca.jpg">
-        <h2>Milý Miki, </h2>
-        <p>K tvým kulatým narozeninám Ti přeju, aby každý nový den byl pro Tebe barevnější, 
-          než kterýkoli obrázek, co vytvoříš. Ať si stále <br>udržuješ ten skvělý humor <br>a pohodu, 
-          které k Tobě <br>neodmyslitelně patří.
+        <h2>Milý Miki,</h2>
+        <p>K tvým kulatým narozeninám Ti přeju, aby každý nový den byl pro Tebe barevnější, 
+          než kterýkoli obrázek, co vytvoříš. Ať si stále udržuješ ten skvělý humor a pohodu, 
+          které k Tobě neodmyslitelně patří.
         </p>
-        <p>Všechno nejlepší <br>a hodně zdraví! :-)</p>
-        <p>PS: A snad brzy <br>naviděnou!</p>
+        <p>Všechno nejlepší a hodně zdraví! :-)</p>
+        <p>PS: A snad brzy naviděnou!</p>
       </Tile>
 
 
-      <Tile image="martin.jpeg">
+      <Tile image="martin.jpeg" pb="4">
         <h2>Všechno nejlepší k narozeninám, </h2>
         <p>Miki! Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou 
           okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
@@ -43,13 +42,13 @@ import Tile from './components/Tile.vue';
 
     <Col>
 
-      <Tile video="misa.mp4" dark>
+      <Tile video="misa.mp4">
         <h2>Salud! 🥃</h2>
         <p>Ať ti to dál tančí jako doteď!</p>
       </Tile>
 
       
-      <Tile image="alex.jpeg" dark>
+      <Tile image="alex.jpeg">
         <h2>Všechno nejlepší</h2>
         <p>Buď turistou ve vlastním městě a vychutnej si dalších 50 let! ❤️</p>
       </Tile>
@@ -60,10 +59,11 @@ import Tile from './components/Tile.vue';
         <p>Ať je další 50 pořádná jízda, třeba i do Brna</p>
       </Tile>
 
-      <Tile image="sarka.jpeg">
+      <Tile image="sarka.jpeg" pb="2">
         <h2>Miki má narozeniny!!!</h2>
-        <p>Přejeme ti se Žoldou všechno nejlepší! Všechno, <br>co si přeješ, ať se vyplní 
-          a ať jsi stále tak super. <br>Doufám že spolu zažijeme ještě hodně srandy. <br>Mám tě ráda ❤️ 😉</p>
+        <p>Přejeme ti se Žoldou všechno nejlepší! Všechno, co si přeješ, ať se vyplní 
+          a ať jsi stále tak super.Doufám že spolu zažijeme ještě hodně srandy. </p>
+          <p>Mám tě ráda ❤️ 😉</p>
       </Tile>
 
 
