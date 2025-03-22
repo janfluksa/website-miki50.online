@@ -38,13 +38,11 @@ defineProps({
   flex-grow: 1;
   border-radius: 1rem;
   box-shadow: 0 8px 20px rgba(0,0,0,.2);
+  flex-direction: column;
 }
 
 .content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
+  position: relative;
   width: 100%;
   background: white;
   border-radius: 0 0 1rem 1rem;
@@ -73,7 +71,7 @@ defineProps({
 img, video {
   width: 100%;
   border-radius: 1rem;
-  
+
   &.pb-1 { padding-bottom: 1rem;}
   &.pb-2 { padding-bottom: 2rem;}
   &.pb-3 { padding-bottom: 3rem;}

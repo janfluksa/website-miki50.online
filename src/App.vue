@@ -11,7 +11,7 @@ import Tile from './components/Tile2.vue';
   <Section>
     <Col>
 
-      <Tile image="ondra.jpg" pb=2>
+      <Tile image="ondra.jpg">
         <h2>Všechno nejlepší k narozeninám! </h2>
         <p>Ať jsi vždy minimálně tak šťastný jako já se 4 párky v rohlíku.</p>
       </Tile>
@@ -32,10 +32,31 @@ import Tile from './components/Tile2.vue';
       </Tile>
 
 
-      <Tile image="martin.jpeg" pb="4">
-        <h2>Všechno nejlepší k narozeninám, </h2>
-        <p>Miki! Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou 
-          okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
+      <Tile image="martin.jpeg">
+        <h2>Všechno nejlepší Miki! </h2>
+        <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
+      </Tile>
+
+      <Tile image="petr.jpg">
+        <h2>Všechno nejlepší </h2>
+        <p>
+          Hodně lásky nejen v práci!</p>
+      </Tile>
+
+      <Tile image="marek.jpg">
+        <h2>Na zdraví a na dalších skvělých padesát! </h2>
+        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
+      </Tile>
+
+      <Tile image="vitek.jpg">
+        <h2>Vše nejlepší, Miki.</h2>
+        <p>Ať jsou tvé dny zalité sluncem a štestím, kamaráde.</p>
+      </Tile>
+
+      <Tile image="martind.jpg">
+        <h2>Všechno nejlepší!</h2>
+        <p>Díky za všechny naše společné diskuze! </p>
+          <p>ps: Už jsi konečně hitnul ten gym? 🙂</p>
       </Tile>
 
     </Col>
@@ -59,11 +80,29 @@ import Tile from './components/Tile2.vue';
         <p>Ať je další 50 pořádná jízda, třeba i do Brna</p>
       </Tile>
 
-      <Tile image="sarka.jpeg" pb="2">
+      <Tile image="sarka.jpeg">
         <h2>Miki má narozeniny!!!</h2>
         <p>Přejeme ti se Žoldou všechno nejlepší! Všechno, co si přeješ, ať se vyplní 
           a ať jsi stále tak super.Doufám že spolu zažijeme ještě hodně srandy. </p>
           <p>Mám tě ráda ❤️ 😉</p>
+      </Tile>
+
+      <Tile image="luky.jpg">
+        <h2>Všechno nejlepší!</h2>
+        <p>Hlavně pevné zdraví! Ať se ti za 50 let ještě staví 😀</p>
+      </Tile>
+
+      <Tile image="kluci.jpg">
+        <h2>Hej MiX,</h2>
+        <p>padesátka je jako software update – trochu děsí, ale většinou přináší vylepšení! Přejeme ti méně bugů, žádné zpomalování a pořádnou dávku zábavy v každé nové verzi.</p>
+        <p>
+          Všechno nejlepší! 🚀
+        </p>
+      </Tile>
+
+      <Tile image="pavel.jpg">
+        <h2>Přeji vše nejlepší</h2>
+        <p>...a hlavně to zdraví :-)</p>
       </Tile>
 
 
