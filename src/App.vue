@@ -105,6 +105,11 @@ import Tile from './components/Tile2.vue';
         <p>...a hlavně to zdraví :-)</p>
       </Tile>
 
+      <Tile image="honza.jpg">
+        <h2>Krásné narozeniny</h2>
+        <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
+      </Tile>
+
 
     </Col>
 
