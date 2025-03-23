@@ -60,6 +60,11 @@ import Tile from './components/Tile.vue';
       </Tile>
 
 
+      <Tile image="luky.jpg">
+        <h2>Všechno nejlepší!</h2>
+        <p>Hlavně pevné zdraví! Ať se ti za 50 let ještě staví 😀</p>
+      </Tile>
+
       <Tile image="honza.jpg">
         <h2>Krásné narozeniny</h2>
         <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
@@ -102,10 +107,6 @@ import Tile from './components/Tile.vue';
         </p>
       </Tile>
 
-      <Tile image="luky.jpg">
-        <h2>Všechno nejlepší!</h2>
-        <p>Hlavně pevné zdraví! Ať se ti za 50 let ještě staví 😀</p>
-      </Tile>
       
       <Tile image="pavel.jpg">
         <h2>Přeji vše nejlepší</h2>
@@ -114,6 +115,15 @@ import Tile from './components/Tile.vue';
 
       <Tile image="verca.jpg">
         <h2>Všechno nej Miki😊</h2>
+      </Tile>
+
+
+
+      <Tile image="lenka.jpg">
+        <h2>Happy B-Day</h2>
+        <p>Nevadí, že jsi zase o rok starší, hlavní je, že jsi stále mladý duchem. ❤ Všechno nejlepší a připojuji malé překvápko 🙂
+        </p>
+        <p>#stayamazing #lenka</p>
       </Tile>
 
     </Col>
