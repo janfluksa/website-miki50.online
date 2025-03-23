@@ -34,12 +34,12 @@ import Tile from './components/Tile.vue';
 
       <Tile image="martin.jpeg">
         <h2>Všechno nejlepší Miki! </h2>
-        <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
+        <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
       </Tile>
 
       <Tile image="marek.jpg">
         <h2>Na zdraví a na dalších skvělých padesát! </h2>
-        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
+        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
       </Tile>
 
       <Tile image="petr.jpg">
@@ -50,7 +50,7 @@ import Tile from './components/Tile.vue';
 
       <Tile image="vitek.jpg">
         <h2>Vše nejlepší, Miki.</h2>
-        <p>Ať jsou tvé dny zalité sluncem a štestím, kamaráde.</p>
+        <p>Ať jsou tvé dny zalité sluncem a štestím, kamaráde.</p>
       </Tile>
 
       <Tile image="martind.jpg">
@@ -67,7 +67,7 @@ import Tile from './components/Tile.vue';
 
       <Tile image="honza.jpg">
         <h2>Krásné narozeniny</h2>
-        <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
+        <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
       </Tile>
 
     </Col>
@@ -82,13 +82,13 @@ import Tile from './components/Tile.vue';
       
       <Tile image="alex.jpeg">
         <h2>Všechno nejlepší</h2>
-        <p>Buď turistou ve vlastním městě a vychutnej si dalších 50 let! ❤️</p>
+        <p>Buď turistou ve vlastním městě a vychutnej si dalších 50 let! ❤️</p>
       </Tile>
 
 
       <Tile image="michal.jpg">
         <h2>Všechno nejlepší</h2>
-        <p>Ať je další 50 pořádná jízda, třeba i do Brna</p>
+        <p>Ať je další 50 pořádná jízda, třeba i do Brna</p>
       </Tile>
 
       <Tile image="sarka.jpeg">
@@ -116,11 +116,11 @@ import Tile from './components/Tile.vue';
 
       <Tile image="lenka.jpg">
         <h2>Happy B-Day</h2>
-        <p>Nevadí, že jsi zase o rok starší, hlavní je, že jsi stále mladý duchem. ❤ Všechno nejlepší a připojuji malé překvápko 🙂
+        <p>Nevadí, že jsi zase o rok starší, hlavní je, že jsi stále mladý duchem. ❤ Všechno nejlepší a připojuji malé překvápko 🙂
         </p>
         <p>#stayamazing #lenka</p>
       </Tile>
-      
+
 
       <Tile image="verca.jpg">
         <h2>Všechno nej Miki😊</h2>
