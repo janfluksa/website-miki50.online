@@ -2,7 +2,7 @@
 import Header from './components/Header.vue';
 import Section from './components/Section.vue';
 import Col from './components/Col.vue';
-import Tile from './components/Tile2.vue';
+import Tile from './components/Tile.vue';
 </script>
 
 <template>
@@ -37,15 +37,15 @@ import Tile from './components/Tile2.vue';
         <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
       </Tile>
 
+      <Tile image="marek.jpg">
+        <h2>Na zdraví a na dalších skvělých padesát! </h2>
+        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
+      </Tile>
+
       <Tile image="petr.jpg">
         <h2>Všechno nejlepší </h2>
         <p>
           Hodně lásky nejen v práci!</p>
-      </Tile>
-
-      <Tile image="marek.jpg">
-        <h2>Na zdraví a na dalších skvělých padesát! </h2>
-        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
       </Tile>
 
       <Tile image="vitek.jpg">
@@ -57,6 +57,12 @@ import Tile from './components/Tile2.vue';
         <h2>Všechno nejlepší!</h2>
         <p>Díky za všechny naše společné diskuze! </p>
           <p>ps: Už jsi konečně hitnul ten gym? 🙂</p>
+      </Tile>
+
+
+      <Tile image="honza.jpg">
+        <h2>Krásné narozeniny</h2>
+        <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
       </Tile>
 
     </Col>
@@ -87,10 +93,6 @@ import Tile from './components/Tile2.vue';
           <p>Mám tě ráda ❤️ 😉</p>
       </Tile>
 
-      <Tile image="luky.jpg">
-        <h2>Všechno nejlepší!</h2>
-        <p>Hlavně pevné zdraví! Ať se ti za 50 let ještě staví 😀</p>
-      </Tile>
 
       <Tile image="kluci.jpg">
         <h2>Hej MiX,</h2>
@@ -100,16 +102,19 @@ import Tile from './components/Tile2.vue';
         </p>
       </Tile>
 
+      <Tile image="luky.jpg">
+        <h2>Všechno nejlepší!</h2>
+        <p>Hlavně pevné zdraví! Ať se ti za 50 let ještě staví 😀</p>
+      </Tile>
+      
       <Tile image="pavel.jpg">
         <h2>Přeji vše nejlepší</h2>
         <p>...a hlavně to zdraví :-)</p>
       </Tile>
 
-      <Tile image="honza.jpg">
-        <h2>Krásné narozeniny</h2>
-        <p>Buď šťastný se svou rodinou a užívej si dobro.</p>
+      <Tile image="verca.jpg">
+        <h2>Všechno nej Miki😊</h2>
       </Tile>
-
 
     </Col>
 
