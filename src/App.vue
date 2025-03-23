@@ -23,7 +23,7 @@ import Tile from './components/Tile.vue';
 
       <Tile image="renca.jpg">
         <h2>Milý Miki,</h2>
-        <p>K tvým kulatým narozeninám Ti přeju, aby každý nový den byl pro Tebe barevnější, 
+        <p>K tvým kulatým narozeninám Ti přeju, aby každý nový den byl pro Tebe barevnější, 
           než kterýkoli obrázek, co vytvoříš. Ať si stále udržuješ ten skvělý humor a pohodu, 
           které k Tobě neodmyslitelně patří.
         </p>
@@ -34,12 +34,12 @@ import Tile from './components/Tile.vue';
 
       <Tile image="martin.jpeg">
         <h2>Všechno nejlepší Miki! </h2>
-        <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
+        <p>Ať máš pořád skvělé nápady, partu fajn lidí kolem sebe a udržíš si svou okouzlující upřímnost. Zdravíčko ať slouží a život ať tě baví.</p>
       </Tile>
 
       <Tile image="marek.jpg">
         <h2>Na zdraví a na dalších skvělých padesát! </h2>
-        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
+        <p>Ať tě život stále baví, inspiruje a přináší spoustu úsměvů. Díky, že tu jsi s námi.</p>
       </Tile>
 
       <Tile image="petr.jpg">
@@ -101,7 +101,7 @@ import Tile from './components/Tile.vue';
 
       <Tile image="kluci.jpg">
         <h2>Hej MiX,</h2>
-        <p>padesátka je jako software update – trochu děsí, ale většinou přináší vylepšení! Přejeme ti méně bugů, žádné zpomalování a pořádnou dávku zábavy v každé nové verzi.</p>
+        <p>padesátka je jako software update <span style="display: inline-block;">– trochu</span> děsí, ale většinou přináší vylepšení! Přejeme ti méně bugů, žádné zpomalování a pořádnou dávku zábavy v každé nové verzi.</p>
         <p>
           Všechno nejlepší! 🚀
         </p>
