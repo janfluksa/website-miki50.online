@@ -108,15 +108,10 @@ import Tile from './components/Tile.vue';
       </Tile>
 
       
-      <Tile image="pavel.jpg">
+      <Tile image="pavel.jpeg">
         <h2>Přeji vše nejlepší</h2>
         <p>...a hlavně to zdraví :-)</p>
       </Tile>
-
-      <Tile image="verca.jpg">
-        <h2>Všechno nej Miki😊</h2>
-      </Tile>
-
 
 
       <Tile image="lenka.jpg">
@@ -124,6 +119,11 @@ import Tile from './components/Tile.vue';
         <p>Nevadí, že jsi zase o rok starší, hlavní je, že jsi stále mladý duchem. ❤ Všechno nejlepší a připojuji malé překvápko 🙂
         </p>
         <p>#stayamazing #lenka</p>
+      </Tile>
+      
+
+      <Tile image="verca.jpg">
+        <h2>Všechno nej Miki😊</h2>
       </Tile>
 
     </Col>
