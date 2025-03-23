@@ -12,7 +12,7 @@ defineProps({
 
     <img v-if="image && !video" :src="`/${image}`" alt="-" />   
     
-    <video v-if="video && !image" autoplay loop muted>
+    <video v-if="video && !image" autoplay loop muted playsinline>
       <source :src="`/${video}`" type="video/mp4"> 
     </video>
 
