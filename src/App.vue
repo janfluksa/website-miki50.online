@@ -123,7 +123,8 @@ import Tile from './components/Tile.vue';
 
 
       <Tile image="verca.jpg">
-        <h2>Všechno nej Miki😊</h2>
+        <h2>Vsechno je Miki ❤️</h2>
+        <p>Jsi super chlap a já jsem moc ráda, že patříme do stejného týmu</p>
       </Tile>
 
     </Col>
